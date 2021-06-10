@@ -1,7 +1,15 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
     '/',
-    // '/offline',
+    '/offline',
+    '/about',
+    '/post',
+    '/css/styles.css',
+    '/js/scripts.js',
+    '/js/bootstrap.bundle.min.js',
+    '/js/all.js',
+    'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic',
+    'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
     '/images/icons/icon-128x128.png',
